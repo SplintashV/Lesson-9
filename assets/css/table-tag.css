@@ -1,0 +1,94 @@
+body {
+    background: var(--background);
+}
+.table-tags {
+    border: 1px solid var(--table-font-color);
+    padding: 0 12px;
+}
+
+.tags-name {
+    width: var(--table-cell-width);
+    text-align: center;
+    border-right: 2px solid var(--table-font-color);
+    background-color: var(--table-primary-color);
+    color: var(--table-font-color);
+    padding: var(--table-cell-padding) 15px;
+    border-bottom: 2px solid var(--table-font-color);
+}
+.tags-description {
+    width: calc(100% - var(--table-cell-width));
+    padding-top: var(--table-cell-padding);
+    padding-bottom: var(--table-cell-padding);
+    background-color: var(--table-secondary-color);
+    padding-left: 24px;
+    border-bottom: 2px solid var(--table-font-color);
+}
+
+
+@media (max-width: 1199px){
+    .tags-name{
+        padding: var(--table-cell-netbook) 15px;
+
+    }
+    .tags-description{
+        padding-top: var(--table-cell-netbook);
+        padding-bottom: var(--table-cell-netbook);
+    }
+}
+@media (max-width: 767px){
+    .tags-name{
+        padding: var(--table-cell-phone) 15px;
+
+    }
+    .tags-description{
+        padding-top: var(--table-cell-phone);
+        padding-bottom: var(--table-cell-phone);
+    }
+}
+@media (max-width: 991px) {
+    .tags-name{
+        width: var(--table-cell-width-tablet);
+        padding: var(--table-cell-tablet) 15px;
+
+    }
+
+    .tags-description {
+        background-color: rgb(123, 224, 191);
+        width: calc(100% - var(--table-cell-width-tablet));
+        padding-top: var(--table-cell-tablet);
+        padding-bottom: var(--table-cell-tablet);
+    }
+}
+
+@media (max-width: 767px){
+    .table-tags row{
+        flex-direction: column;
+    }
+    .tags-name{
+        padding: var(--table-cell-phone) 15px;
+
+    }
+    .tags-description{
+        padding-top: var(--table-cell-phone);
+        padding-bottom: var(--table-cell-phone);
+        padding-right: 15px;
+    }
+    .tags-name,
+    .tags-description{
+        width: 100%;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .tags-description {
+        background-color:  rgb(125, 189, 219);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .tags-name {
+        background-color: rgb(2, 35, 126);
+    }
+}

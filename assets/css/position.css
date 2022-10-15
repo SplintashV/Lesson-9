@@ -1,0 +1,136 @@
+.position, .absolute-parent {
+    width: 200px;
+    height: 200px;
+    background: #ebe99c;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600px
+    ;
+}
+
+.static {
+    background-color: #92be89;
+}
+
+.position.relative {
+    position: relative;
+    left: -110px;
+    top: 100px;
+    background-color: #89bcbe;
+}
+
+.absolute-parent {
+    background-color: #e68b7f;
+    position: relative;
+    
+}
+
+.absolute-parent .absolute {
+    background-color: #ff0000;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 12px;
+    top: 113px;
+    
+}
+
+.position.fixed {
+    background-color: #f59f4e;
+    position: fixed;
+    bottom: 50px ;
+    right: 50px;
+}
+
+.parent-sticky {
+    overflow: auto;
+    height: 450px;
+    background-color: #f0e3a8;
+    font-size: 35px;
+}
+
+.sticky {
+    position: sticky;
+    top: 15px;
+    background-color: #a36060;
+    padding: 12px;
+    color: white;
+}
+
+.container-overflow-x {
+    overflow-x: auto;
+}
+ 
+.container-overflow-x .exemple-row {
+    width: calc(1000px + 1000px) ;
+    background-color: rgb(161, 212, 212);
+}
+
+.table {
+    background-color: rgb(205, 188, 221);
+    width: 100%;
+    border: 2px solid black
+}
+.caption-tablet {
+    font-size: 36px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+td {
+    font-size: 24px;
+    text-align: center;
+    padding: 12px;
+    border: solid 1px black;
+}
+
+[rowspan="3"] {
+    background: #92be89;
+}
+
+.w1 {
+    font-family: "Dancing Script";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+}
+.w2 {
+    font-family: "Dancing Script";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+.w3 {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+.w4 {
+    font-family: "Comforter Brush";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    
+}  
+.w5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    
+}    
+.triangle {
+    width: 0;
+	height: 0;
+	border-top: 100px solid rgb(152, 91, 231); 
+	border-right: 100px solid transparent;	
+    margin-right: auto;
+    margin-left: auto;
+    
+}

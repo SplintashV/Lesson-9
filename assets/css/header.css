@@ -1,0 +1,51 @@
+header {
+    padding: 30px 60px;
+    background: black;
+}
+.logo {
+    margin-right: 44px;
+}
+header nav {
+    display: flex;
+    
+}
+.header-nav {
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+}
+.header-nav__item {
+    list-style: none;
+}
+.header-nav__item-link{
+    margin: 44px;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.second-header {
+    background: none;
+    
+    
+}
+.second-header-nav {
+    display: flex;
+    align-items: center;
+}
+.logo-CE {
+    margin-right: auto;
+}
+
+.second-header-nav__item-link {
+    margin-left:  35px;
+    margin-top: 70px;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #111111;
+    text-decoration: none;
+    
+    
+}

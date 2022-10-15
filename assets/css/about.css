@@ -1,0 +1,145 @@
+.about {
+    padding: 140px 0px;
+}
+
+.about-info {
+    background-image: url(../img/bg-info-image.png);
+    background-repeat: no-repeat;
+    padding-top: 143px;
+    padding-bottom: 142px;
+    background-position-x: center;
+    background-position-y: 288px;
+    margin: 0px;
+}
+
+
+header {
+    background :linear-gradient(136.35deg, rgba(255, 255, 255, 0) 9.92%, #FFFFFF 89.59%), #050500 ;
+    
+}
+.info__text {
+    margin-top: 254px; 
+    
+}
+.info-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    width: 456px;
+    display: flex;
+    color: #000000;
+    margin: 0;
+
+}
+.info-description {
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    width: 599.39px;
+    color: #484848;
+    padding-top: 27px;
+    margin-bottom: 59px;
+}
+.info-btn {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 20px 50px;
+    align-items: flex-end;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #C83267;
+    border: 1px solid #C83267;
+    border-radius: 4px;
+}
+.about .row {
+    flex-wrap: nowrap;
+}
+.about__text-box {
+    padding-left: 30px;
+}
+.about-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000;
+    margin: 0 0 48px;
+}
+.about-description {
+    font-size: 18px;
+    line-height: 42px;
+    color: #000
+}
+.how-title {
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 157%;
+    color: #000000;
+    
+}
+.about-html {
+    height: 774px;
+    max-width: 399px;
+    width: 100%;
+    margin-right: 97px;
+    
+}
+.about-html-title {
+    font-size: 72px;
+    line-height: 90px;
+    color: rgba(255, 174, 0, 0.75);
+    margin-bottom: 24px;
+    margin-top: 48px;
+}
+.about-html__description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    width: 391px;
+    margin-bottom: 48px;
+}
+.about-css3 {
+    height: 744;
+    max-width: 399px;
+    width: 100%;
+    margin-right: 100px;
+
+}
+.about-css3-title {
+    font-size: 72px;
+    line-height: 90px;
+    color: rgba(7, 50, 255, 0.75);
+    margin-bottom: 24px;
+    margin-top: 249px;
+    
+}
+.about-css3__description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    width: 399px;
+    margin-bottom: 48px;
+}
+.about-java-title {
+    font-size: 72px;
+    line-height: 90px;  
+    color: rgba(255, 66, 61, 0.75);
+    margin-top: 92px;
+
+}
+
+.about-java { 
+    height: 774px;
+    max-width: 399px;
+    width: 100%;
+}
+
+.about-java__description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    width: 399px;
+    color: #424242;
+    margin-bottom: 48px;
+}

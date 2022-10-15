@@ -1,0 +1,46 @@
+header {
+    background: none;
+}
+.home-page {
+    background-color: black;
+    color: #fff;
+    padding: 60px 100px;
+    background-image: url(../img/person-photo.png);
+    background-repeat: no-repeat;
+    background-position: right 70px;
+    margin: 0;
+}
+.person-info {
+    margin-top: 174px;
+}
+.person-info__title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 89px;
+    color: #fff;
+    margin: 0;
+}
+.person-info__subtitle {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    color: #fff;
+    margin: 0 0 13px;
+}
+.person-info__description {
+    font-size: 25px;
+    line-height: 34px;
+    color: #FFFFFF;
+    width: 694px;
+    margin: 0 0 50px;
+}
+.person-info__btn {
+    padding: 23px 49px;
+    background: white;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+}

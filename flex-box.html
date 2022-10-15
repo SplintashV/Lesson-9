@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-8</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/flex-box.css">
+    
+    
+</head>
+
+<body class="flex-box"> 
+    <header>
+        <nav>
+            <a href="index.html"class="logo">
+                <img src="assets/img/logo.svg" alt="logo">
+            </a>
+            <ul class="header-nav">
+                <li class="header-nav__item">
+                    <a href="work.html" class="header-nav__item-link">Work</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="about.html" class="header-nav__item-link">About</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="contact.html" class="header-nav__item-link">Contact</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="flex-box.html" class="header-nav__item-link">Flex-box</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="position.html" class="header-nav__item-link">Position</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="catalog.html" class="header-nav__item-link">Catalog</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="table-tag.html" class="header-nav__item-link">table-tag</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="page-title">Flex-box layout</h1>
+        
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: block;</h2>
+                <div class="exemple-row ">
+                    <div class="exemple-item">1</div>
+                    <div class="exemple-item">2</div>
+                    <div class="exemple-item">3</div>
+                    <div class="exemple-item">4</div>
+                    <div class="exemple-item">5</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: flex; <br> flex-direction: row; <br>justify-content: start;</h2>
+                <div class="exemple-row d-flex">
+                    <div class="exemple-item">1</div>
+                    <div class="exemple-item">2</div>
+                    <div class="exemple-item">3</div>
+                    <div class="exemple-item">4</div>
+                    <div class="exemple-item">5</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: flex <br> justify-content: space-between;</h2>
+                <div class="exemple-row d-flex justify-content-space-between">
+                    <div class="exemple-item">1</div>
+                    <div class="exemple-item">2</div>
+                    <div class="exemple-item">3</div>
+                    <div class="exemple-item">4</div>
+                    <div class="exemple-item">5</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: flex <br> justify-content: space-around;</h2>
+                <div class="exemple-row d-flex justify-content-space-around">
+                    <div class="exemple-item">1</div>
+                    <div class="exemple-item">2</div>
+                    <div class="exemple-item">3</div>
+                    <div class="exemple-item">4</div>
+                    <div class="exemple-item">5</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: flex <br> justify-content: space-evenly;</h2>
+                <div class="exemple-row d-flex justify-content-space-evenly">
+                    <div class="exemple-item">1</div>
+                    <div class="exemple-item">2</div>
+                    <div class="exemple-item">3</div>
+                    <div class="exemple-item">4</div>
+                    <div class="exemple-item">5</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: flex <br> justify-content: center;</h2>
+                <div class="exemple-row d-flex justify-content-center">
+                    <div class="exemple-item">1</div>
+                    <div class="exemple-item">2</div>
+                    <div class="exemple-item">3</div>
+                    <div class="exemple-item">4</div>
+                    <div class="exemple-item">5</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: flex <br> justify-content: end;</h2>
+                <div class="exemple-row d-flex justify-content-end">
+                    <div class="exemple-item">1</div>
+                    <div class="exemple-item">2</div>
+                    <div class="exemple-item">3</div>
+                    <div class="exemple-item">4</div>
+                    <div class="exemple-item">5</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: flex <br> justify-content: align-items: flex-end;</h2>
+                <div class="exemple-row d-flex aling-items-end">
+                    <div class="exemple-item">1</div>
+                    <div class="exemple-item">2</div>
+                    <div class="exemple-item">3</div>
+                    <div class="exemple-item">4</div>
+                    <div class="exemple-item">5</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: flex <br> justify-content: align-items: center;;</h2>
+                <div class="exemple-row d-flex aling-items-center">
+                    <div class="exemple-item">1</div>
+                    <div class="exemple-item">2</div>
+                    <div class="exemple-item">3</div>
+                    <div class="exemple-item">4</div>
+                    <div class="exemple-item">5</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: flex <br> justify-content: align-items: flex-start;</h2>
+                <div class="exemple-row d-flex aling-items-start">
+                    <div class="exemple-item">1</div>
+                    <div class="exemple-item">2</div>
+                    <div class="exemple-item">3</div>
+                    <div class="exemple-item">4</div>
+                    <div class="exemple-item">5</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: flex; <br> flex-direction: column;</h2>
+                <div class="exemple-row d-flex flex-direction-column">
+                    <div class="exemple-item">1</div>
+                    <div class="exemple-item">2</div>
+                    <div class="exemple-item">3</div>
+                    <div class="exemple-item">4</div>
+                    <div class="exemple-item">5</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: flex; <br> flex-direction: space-between; column;</h2>
+                <div class="exemple-row d-flex flex-direction-column justify-content-space-between">
+                    <div class="exemple-item">1</div>
+                    <div class="exemple-item">2</div>
+                    <div class="exemple-item">3</div>
+                    <div class="exemple-item">4</div>
+                    <div class="exemple-item">5</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: flex; <br> flex-direction: row; <br>order;</h2>
+                <div class="exemple-row d-flex">
+                    <div class="exemple-item order-5">1</div>
+                    <div class="exemple-item order-3">2</div>
+                    <div class="exemple-item order-4">3</div>
+                    <div class="exemple-item order-2">4</div>
+                    <div class="exemple-item order-1">5</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exemple">
+            <div class="container">
+                <h2 class="exemple-title">display: flex; <br> flex-direction: row; <br>order; <br>align-self; a</h2>
+                <div class="exemple-row d-flex a-group">
+                    <div class="exemple-item a-self-1 order-4">1</div>
+                    <div class="exemple-item a-self-2 order-3">2</div>
+                    <div class="exemple-item a-self-3 order-5">3</div>
+                    <div class="exemple-item a-self-4 order-2">4</div>
+                    <div class="exemple-item a-self-5 order-1">5</div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+</body>
+
+</html>
